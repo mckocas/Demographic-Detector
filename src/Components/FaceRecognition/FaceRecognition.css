@@ -7,12 +7,15 @@
     cursor: pointer;
 }
 .demoGraphicInfos{
+    position: relative;
     margin: auto 0;
+    display:flex;
+    flex-wrap: wrap;
+    width: 500px;
 }
 .targetImage{
-    display:flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+
+    width: 500px;
 }
 .dmgTable table{
     width: 450px;
@@ -24,9 +27,7 @@ td{
     border-bottom: solid white 1px;
     padding-top: 5px;
 }
-tr{
-    
-}
+
 .faceRecognition{
     width: 90%;
     margin: 5px auto;
@@ -37,5 +38,10 @@ tr{
     radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
     background-color:#282828;
     background-size:16px 16px;    
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+
 }
 
